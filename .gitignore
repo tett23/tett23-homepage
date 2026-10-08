@@ -2,3 +2,4 @@
 .env
 # リンクカードの画像など、ビルドのときに取得したもの（sqlite-cms が作る）
 .sqlite-cms-cache/
+dist/

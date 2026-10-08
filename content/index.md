@@ -18,6 +18,7 @@ GitHub: https://github.com/tett23
 - [tett23/NablaSKK](https://github.com/tett23/NablaSKK) Rust/Swiftで実装したAquaSKK（C++/ObjC製）の移植
   - 解説 [AquaSKK(22,000行のC++で書かれたInput Method)を移植したNablaSKKを作った](https://zenn.dev/tett23/articles/01429b6bf2d81c)
 - [tett23/SKK-JISYO.dainihonkokugojiten](https://github.com/tett23/SKK-JISYO.dainihonkokugojiten) 大正時代の著作権切れ辞書のSKK辞書化
+  - 解説。下ふたつも同じ記事で解説されています [SKK辞書を3本作った（絵文字、古い国語辞典、麻雀用語）](https://zenn.dev/tett23/articles/6e6c951e5807d7)
 - [tett23/SKK-JISYO.mahjong-riichi](https://github.com/tett23/SKK-JISYO.mahjong-riichi) SKK用リーチ麻雀用辞書
 - [tett23/SKK-JISYO.emoji-ja](https://github.com/tett23/SKK-JISYO.emoji-ja) uasiさんの辞書をもとに使いやすくしたSKKの絵文字辞書
 - [tett23/sqlite-cms](https://github.com/tett23/sqlite-cms) SQLite一本で作ったページ遷移をはさまないCMS。このページもsqlite-cmsで動いています
@@ -95,5 +96,3 @@ AIによってコードをほぼ読まなくなったので、職場での実装
 
 https://github.com/tett23
 https://x.com/tett23
-
-
