@@ -17,6 +17,12 @@ GitHub: https://github.com/tett23
 
 - [tett23/NablaSKK](https://github.com/tett23/NablaSKK) Rust/Swiftで実装したAquaSKK（C++/ObjC製）の移植
   - 解説 [AquaSKK(22,000行のC++で書かれたInput Method)を移植したNablaSKKを作った](https://zenn.dev/tett23/articles/01429b6bf2d81c)
+- ネット小説をEPUBにしてKindleにして配信するやつ。4リポジトリに分かれてます
+  - 解説。[ネット小説をクロールしてEPUBに変換、Kindleに配信する仕組みを12時間でつくった](https://zenn.dev/tett23/articles/27928d61643cd7)
+  - [tett23/novel-crawler](https://github.com/tett23/novel-crawler)(private) クローラ。アダプタ式で本文とメタデータを取得できる。DBに入れることも、スロットリングをすることもない。私的利用にとどめるためにprivate
+  - [tett23/epub-builder](https://github.com/tett23/epub-builder) 今回の用途に限らない、汎用的なEPUB生成器。とりあえずEPUB2.0.1と3.0に対応
+  - [tett23/send-to-kindle](https://github.com/tett23/send-to-kindle) 対応しているフォーマットなら何でもメール経由でKindleに送りつけられる。旧実装ではDenoで書いてdotfiles/binに置いていたが、公開するにあたってRustで再実装した
+  - [tett23/epubize](https://github.com/tett23/epubize) epubize本体とGUI。ユーザーが触る画面。DBに本文やメタデータを貯める、クローラをスケジューリングする、各モジュールを結合する
 - [tett23/SKK-JISYO.dainihonkokugojiten](https://github.com/tett23/SKK-JISYO.dainihonkokugojiten) 大正時代の著作権切れ辞書のSKK辞書化
   - 解説。下ふたつも同じ記事で解説されています [SKK辞書を3本作った（絵文字、古い国語辞典、麻雀用語）](https://zenn.dev/tett23/articles/6e6c951e5807d7)
 - [tett23/SKK-JISYO.mahjong-riichi](https://github.com/tett23/SKK-JISYO.mahjong-riichi) SKK用リーチ麻雀用辞書
@@ -26,6 +32,12 @@ GitHub: https://github.com/tett23
   - デモ https://gentle-tooth-fe80.tett23.workers.dev/
 - [tett23/point-of-needle](https://github.com/tett23/point-of-needle) 荒唐無稽な定理証明をLeanにやらせてみた
   - 解説 [Opus5.5でLeanによる定理証明を試してみた： 針の上で天使は何人踊れるか](https://zenn.dev/tett23/articles/a7c523a3016784)
+
+#### 小ツール群
+
+[shorten-path](https://github.com/tett23/shorten-path) リポジトリを [ghq](https://github.com/x-motemen/ghq) で管理しているため、shell promptがクソ長になる。なので適当に切りつめるコマンド
+[adr-guard](https://github.com/tett23/adr-guard) 後述のADR運用方針を守らせるためのコマンド
+[send-to-kindle](https://github.com/tett23/send-to-kindle) メール経由でKindleにファイルを送りつけるコマンド
 
 ### 書いた記事一覧
 
@@ -77,7 +89,7 @@ CとRubyでプログラミングを覚え、React+TSにはまってから型シ�
 - インシデント、問いあわせ対応: 歴が長いだけあってインシデントの経験数も多いです。インシデント発生時には技術的調査にアサインされることが多く、30万行規模のコードベースも全体の構造と主要な処理の流れを頭に入れておいて、必要に応じて取りだせます。メトリクスも日々監視しているので最速で問題点を見つけることができます。サービス停止からの復旧経験も豊富です。
 - 知識の転移: ドキュメントを書くのが好きですし、レビューやペアプロでの知識転移も得意と自負しています。
 - 約2万字のドキュメントでアーキテクトの必要性を文書と上長への口頭説明を行いポジションを獲得獲得したことがあります。アーキテクトを必要としたのは、いますぐの機能開発ではなく、計算機科学史に基いた教育をふくめたチームビルディング、技術選定、今後必要になるソフトウェアをあらかじめ実装する必要を感じたためです。
-- 証券業界でQAも担当し、mainを常にデプロイしない環境での仕様をもとにした品質保証についても学びました
+- 証券業界でQAも担当し、mainを常にデプロイしない環境での仕様をもとにした品質保証についても学びました。
 
 ## AIについての立場
 
