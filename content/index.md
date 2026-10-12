@@ -15,6 +15,8 @@ GitHub: https://github.com/tett23
 
 ### 無職期間の代表的なリポジトリ
 
+日々使うようなソフトウェアであったり、遊びで実装しています。
+
 - [tett23/NablaSKK](https://github.com/tett23/NablaSKK) Rust/Swiftで実装したAquaSKK（C++/ObjC製）の移植
   - 解説 [AquaSKK(22,000行のC++で書かれたInput Method)を移植したNablaSKKを作った](https://zenn.dev/tett23/articles/01429b6bf2d81c)
 - ネット小説をEPUBにしてKindleにして配信するやつ。4リポジトリに分かれてます
@@ -68,6 +70,7 @@ CとRubyでプログラミングを覚え、React+TSにはまってから型シ�
 - ソフトウェアエンジニアリング、プロダクト開発
 - Input Methodや辞書作成
 - 組版システム
+- パーサー
 
 ## 主なスキルセット
 
@@ -103,6 +106,10 @@ AIによる高速な実装により、テストを設計したうえでライブ
 
 AIによってコードをほぼ読まなくなったので、職場での実装言語はよほどAI向きでない限り、使う言語は問いません。
 これは、AI時代において、品質保証の位置づけを変えているためです。一般にはテストの質、メトリクス、DataDogで確認できるような応答速度、ボトルネックの探索、WebではLighthouse, Core Web Vitalsで保証します。以前の職場では導入しきれませんでしたが、必要によりビジュアルレグリッションテストでも品質を担保します。セキュリティに関する部分は自分で読み、レビューも行います。
+
+CLAUDE.mdはこんな感じです。
+
+https://github.com/tett23/dotfiles/blob/master/.claude/CLAUDE.md
 
 ## 連絡先
 
