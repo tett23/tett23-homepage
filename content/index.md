@@ -29,6 +29,7 @@ GitHub: https://github.com/tett23
   - 解説。下ふたつも同じ記事で解説されています [SKK辞書を3本作った（絵文字、古い国語辞典、麻雀用語）](https://zenn.dev/tett23/articles/6e6c951e5807d7)
 - [tett23/SKK-JISYO.mahjong-riichi](https://github.com/tett23/SKK-JISYO.mahjong-riichi) SKK用リーチ麻雀用辞書
 - [tett23/SKK-JISYO.emoji-ja](https://github.com/tett23/SKK-JISYO.emoji-ja) uasiさんの辞書をもとに使いやすくしたSKKの絵文字辞書
+- [tett23/SKK-JISYO.kaomoji](https://github.com/tett23/SKK-JISYO.kaomoji) 顔文字辞書。勢いで作ったので解説はない。だいたい絵文字辞書と同じ
 - [tett23/sqlite-cms](https://github.com/tett23/sqlite-cms) SQLite一本で作ったページ遷移をはさまないCMS。このページもsqlite-cmsで動いています
   - 解説 [記事データの入ったSQLiteを直配信する野蛮なCMSを作った](https://zenn.dev/tett23/articles/f85e8abcc3a2c6)
   - デモ https://gentle-tooth-fe80.tett23.workers.dev/
@@ -50,6 +51,8 @@ https://zenn.dev/tett23
 - [eucj_to_utf8: JIS X 0213 の合成かなが UTF-8 変換で壊れる問題を修正](https://github.com/codefirst/aquaskk/pull/128)
 - [辞書オブジェクトの破棄時に、ローダースレッドが解放済みメモリへアクセスする問題がある](https://github.com/codefirst/aquaskk/issues/127)
 - [SKK-JISYO.L: 麻雀の役名を追加](https://github.com/skk-dev/dict/pull/64)
+- [辞書の候補 (concat "...") が評価されず、式のまま表示される](https://github.com/codefirst/aquaskk/issues/129)
+- [IME composition cancelled with the caret not at its end leaves the composed text in insert mode](https://github.com/VSCodeVim/Vim/issues/10120)
 
 ## 来歴
 

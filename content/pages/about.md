@@ -17,3 +17,5 @@ https://ch.dlsite.com/mypage/matome
 
 記事の内容は [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) で公開しています。
 引用や転載に断りは要りません。
+
+コード類は私の書いたものは断わりがない限り、MITとします。
