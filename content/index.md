@@ -2,6 +2,7 @@
 
 はちがつうまれ、といいます。ソフトウェアエンジニアです。
 GitHub: https://github.com/tett23
+代表的なプロダクト https://tett23.github.io/
 
 ## 仕事が欲しい
 
@@ -17,6 +18,10 @@ GitHub: https://github.com/tett23
 
 日々使うようなソフトウェアであったり、遊びで実装しています。
 
+- [tett23/golem](https://github.com/tett23/golem) 組版のソフトウェア化を目指し、印刷品質のPDFやEPUBを生成するソフトウェア
+  - [tett23/peg-hs](https://github.com/tett23/peg-hs) Golemおよび内部言語のEmetのためにつくったPEGベースの汎用パーサジェネレータ
+  - [tett23/shem](https://github.com/tett23/shem) 汎用PDFラスタライザ
+  - [tett23/aleph](https://github.com/tett23/aleph) Golemを使用した原稿と組版の統合開発環境
 - [tett23/NablaSKK](https://github.com/tett23/NablaSKK) Rust/Swiftで実装したAquaSKK（C++/ObjC製）の移植
   - 解説 [AquaSKK(22,000行のC++で書かれたInput Method)を移植したNablaSKKを作った](https://zenn.dev/tett23/articles/01429b6bf2d81c)
 - ネット小説をEPUBにしてKindleにして配信するやつ。4リポジトリに分かれてます
